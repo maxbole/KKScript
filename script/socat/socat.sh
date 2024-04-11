@@ -5,7 +5,7 @@ GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
 PLAIN='\033[0m'
 
-# 定義函數來安裝socat和服務
+# 定義函數來安裝socat和服務。
 install_socat_service() {
     # 1. 安装socat
     echo "正在安装socat..."
